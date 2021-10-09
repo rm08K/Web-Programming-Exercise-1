@@ -9,6 +9,11 @@
 
     $sei = $_POST["sei"];
     $mei = $_POST["mei"];
-    echo $sei . " " . $mei;
-
+    
+    if ($sei == "yamada" || $mei == "yamada") {
+        echo "xxxx";
+    } else {
+        echo $sei . " " . $mei;
+    }
+    
     // 文字列演算子：ピリオドでくっつけます。
